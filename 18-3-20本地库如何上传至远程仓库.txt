@@ -1,0 +1,26 @@
+git注册的时候没有邮箱验证，可能是有的邮箱自动把国外的邮件自动扔到垃圾箱了
+
+1.已经注册过了，SSH公钥已经给github了
+1.1把文件复制到本地库目录下git clone 地址
+1.2.git status //可以查看文件状态
+1.3. git add 文件名  //可以把添加到暂存区
+1.3.1  git add -A . //添加所有到暂存区
+1.4 git commit -am  '注释‘//目录下所有跟踪过的文件上传到本地库
+1.5 git commit -m '注释' //暂存区上传到本地库
+1.6 git push 远程仓库的地址 分支master//上传到远程库
+//所以我们可以用git add 跟踪新文件 用git commit -am把改过的和暂存区一起提交 
+//如果只交暂存区就用git commit -m
+通过git pull 可以将远程库没有的下载到本地库和本地库融合
+rm可以删除文件
+2.初次使用下载git注册github后
+设置用户名邮箱
+git config --global user.name '你的用户名'
+git config --global email.name '你的邮箱'
+ 创建公匙ssh-keygen -t rsa -C "邮箱.com"
+根据提示找到公钥文本文档打开
+复制内容到github settings SSH and GPGkeys粘贴
+2.1在本地新建一个文件夹
+2.2用git init变成本地库
+2.3上传到本地库同1省略
+2.4git remote add origin  远程仓库地址//将本地库连接远程库
+2.5 git push -u origin master //第一次push
