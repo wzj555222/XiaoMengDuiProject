@@ -22,5 +22,5 @@ git config --global email.name '你的邮箱'
 2.1在本地新建一个文件夹
 2.2用git init变成本地库
 2.3上传到本地库同1省略
-2.4git remote add origin  远程仓库地址//将本地库连接远程库
-2.5 git push -u origin master //第一次push
+2.4git remote add origin（别名）远程仓库地址//地址名取别名
+2.5 git push -u origin master //第一次push要加-u 跟踪

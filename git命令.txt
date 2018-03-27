@@ -4,4 +4,7 @@ git add -A . //添加所有到暂存区
 git commit -am  '注释‘//目录下所有跟踪过的文件上传到本地库
 git commit -m '注释' //暂存区上传到本地库
 git push 远程仓库的地址 分支master//上传到远程库
-git reset HEAD 文件名//取消add
+git reset HEAD 文件名//取消add并保存
+git checkout 文件名//文件恢复上次add到缓存区的状态
+git branch//查看当前分支
+git checkout 分支名//切换分支
