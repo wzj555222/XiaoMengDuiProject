@@ -1,10 +1,22 @@
 git status //可以查看文件状态
+
 git add 文件名  //可以把添加到暂存区
+
 git add -A . //添加所有到暂存区
+
 git commit -am  '注释‘//目录下所有跟踪过的文件上传到本地库
+
 git commit -m '注释' //暂存区上传到本地库
-git push 远程仓库的地址 分支master//上传到远程库
+
+git push 远程仓库的地址 分支master//上传到远程库，没有分支将被创建
 git reset HEAD 文件名//取消add并保存
+
 git checkout 文件名//文件恢复上次add到缓存区的状态
+
 git branch//查看当前分支
+
 git checkout 分支名//切换分支
+
+git pull
+git fetch
+git push --delete 分支名//删除
