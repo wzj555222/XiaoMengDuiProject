@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Season</title>
-    <base target="_blank">
+    <title>Document</title>
 </head>
-<body>
-    <a href="./images/chun.jpg">春意绵绵</a>
-    <a href="./images/xia.jpg">夏日炎炎</a>
-    <a href="./images/qiu.jpg">秋风瑟瑟</a>
-    <a href="./images/dong.jpg">冬雪皑皑</a>
-    <img src="./images/qiu.jpg" alt="秋风瑟瑟"> 
+<body background="./images/qiu.jpg" id="img">
+        <script type="text/javascript">
+            function changechun() {
+                document.getElementById("img").background = "./images/chun.jpg";
+            }
+            function changexia() {
+                document.getElementById("img").background = "./images/xia.jpg";
+            }
+            function changeqiu() {
+                document.getElementById("img").background = "./images/qiu.jpg";
+            }
+            function changedong() {
+                document.getElementById("img").background = "./images/dong.jpg";
+            }
+        </script>
+        <a href="#" onclick="changechun();">春雨绵绵</a>
+        <a href="#" onclick="changexia();">夏日炎炎</a>
+        <a href="#" onclick="changeqiu();">秋风瑟瑟</a>
+        <a href="#" onclick="changedong();">冬雪皑皑</a>
 </body>
 </html>
