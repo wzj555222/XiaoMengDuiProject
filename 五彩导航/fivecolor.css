@@ -1,0 +1,47 @@
+*
+{
+    padding:0px;
+    margin: 0px;
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    height: 58px;
+    color:beige;
+    text-align:center;
+    line-height: 40px;
+}
+.ora
+{
+    background: url("./images/bg1.png");
+}
+.ora:hover
+{
+    background: url("./images/bg4.png");
+}
+.blu
+{
+    background: url("./images/bg2.png");
+}
+.blu:hover
+{
+    background: url("./images/bg5.png");
+}
+.purple
+{
+    background: url("./images/bg3.png");
+}
+.purple:hover
+{
+    background: url("./images/bg6.png");
+}
+.pink
+{
+    background: url("./images/bg3.jpg");
+}
+.pink:hover
+{
+    background: url("./images/bg7.png");
+}
