@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    font-size: 3px;
+    /* display: inline; */
+}
+h1 {
+    font-size: 30px;
+    color: #ccc;
+}
+
+.a {
+    border: 1px solid #ccc;
+    height: 230px;
+    width: 1200px;
+    margin: 0px auto;
+    
+}
+
+#a-ul {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#a-ul li {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-left: 60px;
+}
+
+#a-ul li span {
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.prize {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title {
+    padding-left: 110px;
+}
+
+.b {
+    border: 1px solid #ccc;
+    width: 1200px;
+    height: 399px;
+    margin: 0px auto;
+
+}
+
+.JD-q {
+    float: left;
+    width: 615px;
+    height: 403px;
+}
+
+clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+clearfix {
+    zoom: 1;
+}
+
+.c {
+    float: left;
+    background: white;
+    height: 30px;
+    line-height: 30px;
+    width: 403px;
+    text-align: center;
+
+
+}
+
+.d {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 205px;
+    text-align: center;
+}
+
+.d1 {
+    float: left;
+    height: 208px;
+    width: 403px;
+    background-image: url("./images/images/56ce76b3N70dd538b.jpg");
+}
+
+.d2 {
+    float: left;
+    height: 208px;
+    width: 206px;
+    background-image: url(./images/images/56cfe74fN656e8551.jpg)
+}
+
+.d3 {
+    float: left;
+    height: 158px;
+    width: 201px;
+    background-image: url(./images/images/56cd90b9N0a81f09c.jpg)
+}
+
+.d4 {
+    float: left;
+    height: 158px;
+    width: 201px;
+    background-image: url(./images/images/56ce6b9aN1c2ecedd.jpg)
+}
+
+.d5 {
+    float: left;
+    height: 158px;
+    width: 201px;
+    background-image: url(./images/images/56cecc2cNef8bb127.jpg)
+}
+
+.f {
+    float: left;
+    height: 395px;
+    width: 405px;
+    background-image: url(./images/images/56cfb194N1f7db68f.jpg)
+}
+
+.JD-g {
+    display: inline-block;
+    width: 174px;
+    height: 403px;
+}
+
+.g {
+    border: 1px dotted;
+    border-top: 0px;
+    border-right: 0px;
+    float: left;
+    width: 85px;
+    height: 57px;
+}
+
+.h {
+    border: 1px dotted;
+    border-top: 0px;
+    border-left: 0px;
+    float: left;
+    width: 85px;
+    height: 57px;
+}
+
+.e {
+
+    width: 1200px;
+    height: 30px;
+    margin: 0px auto;
+    padding: 10px 60px;
+}
+.v {
+    border: 1px solid #ccc;
+    width: 1200px;
+    height: 110px;
+    margin: 0px auto;
+    background-image: url(./images/images/kx.png)
+}
+.dd{
+    padding: 50px 10px;
+    width: 203px;
+    height: 203px;
+}
+
+
+.dd ul{
+    
+    width: 100px;
+    height: 50px;
+}
+.dd1{
+    font-size:20px;
+}
+.dd2{
+    font-size: 12px;
+}
+.dd3{
+    font-size: 14px;
+    color: red;
+}
